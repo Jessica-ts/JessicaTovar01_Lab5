@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+	background-image: url('../Image/list.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed
+
+}
+
+.crossed {
+	 text-decoration: line-through;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	border: 1px solid #D1D1D1;
+	margin-bottom: 10px;
+	margin-right: 40px;
+}
+
+.shoppingItems {
+	color: grey;
+	font-style: italic;
+	font-size: 22px;
+	
+}
+
+.checkButton {
+	margin: 0 0 10px 10px;
+	padding: 5px;
+	background-color: #56C56F;
+}
+
+
+.deleteButton {
+	margin: 0 0 10px 10px;
+	padding: 5px;
+	background-color: #D9534F;
+}
